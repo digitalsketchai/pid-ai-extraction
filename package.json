@@ -1,0 +1,23 @@
+{
+  "name": "digitalsketch-nodejs-sample",
+  "version": "1.0.0",
+  "description": "P&ID Data Extraction Node.js sample client",
+  "main": "extract_predictions.js",
+  "type": "module",
+  "scripts": {
+    "start": "node extract_predictions.js"
+  },
+  "keywords": [
+    "pid",
+    "digitization",
+    "extraction",
+    "engineering"
+  ],
+  "author": "DigitalSketch.ai",
+  "license": "All rights reserved",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0"
+  }
+}
